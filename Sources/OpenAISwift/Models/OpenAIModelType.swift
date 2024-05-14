@@ -119,8 +119,11 @@ public enum OpenAIModelType {
     ///  You can read the [API Docs](https://platform.openai.com/docs/api-reference/chat/create)
     public enum GPT4: String {
         
+        case gpt4o = "gpt-4o"
+        case gpt4turbo = "gpt-4-turbo"
+        
         case gpt40125 = "gpt-4-0125-preview"
-        case gpt4turbo = "gpt-4-turbo-preview"
+        case gpt4turbopreview = "gpt-4-turbo-preview"
         
         /// More capable than any GPT-3.5 model, able to do more complex tasks, and optimized for chat. Will be updated with our latest model iteration.
         /// > Model Name: gpt-4
